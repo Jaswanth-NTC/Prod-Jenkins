@@ -14,7 +14,7 @@ git clone https://github.com/jaswanthparamkusam/Prod-Jenkins/Java-K8S-APP/spring
 cd Java-K8S-APP/spring-boot-app
 ```
 
-Execute the Maven targets to generate the artifacts
+Execute the Maven targets to generate the artifact
 
 ```
 mvn clean package
