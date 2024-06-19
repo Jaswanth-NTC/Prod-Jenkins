@@ -16,7 +16,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Small Trailer of CI/CD");
-        model.addAttribute("msg", "Hello, NTC..we are entering to CI/CD deployment, get ready.");
+        model.addAttribute("msg", "Hello, NTC..we are entering to CI/CD deployment, get ready folks.");
         return "index";
     }
 
